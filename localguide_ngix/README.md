@@ -10,6 +10,7 @@ Es muss nur bedacht werden, dass die jeweiligen Applikationsbestandteile die URL
 
 | Technologie               | Listen-Url    | Destination-Url |
 | :---:                     | :---: |:---: |
+| **Plattform**    | http://localhost:7000/*   | http://localhost:7000/*  |
 | **Frontend (Angular)**    | \*/\*   | http://localguide.local:4200/ |
-| **IAM (Keycloak)**        | \*/realms/\* <br/> \*/resources/6q47a/\* |   | http://localhost:9009/realms <br/>http://localhost:9009/resources/6q47a/
+| **IAM (Keycloak)**        | \*/realms/\* <br/> \*/resources/6q47a/\* |   | http://localhost:9009/realms , http://localhost:9009/resources/6q47a/
 | **Backend (FastAPI)**    | \*/localguide/api/*   | http://localguide.local:8000/ |
