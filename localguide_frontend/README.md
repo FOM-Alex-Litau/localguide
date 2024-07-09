@@ -20,7 +20,7 @@ Klassen, die für Transport und Abbildung benötigt werden
 ## [service](src/app/service)
 Services, die bereitgestellt werden
 
-## [routes](src/app/routes/app.config.ts)
+## [routes](src/app/app.routes.ts)
 Routen und deren Komponenten, die für Navigation bzw. Anzeige verwendet werden
 
 ## [assets](src/assets)
