@@ -17,10 +17,10 @@ Umgebungseinstellungen z.b BaseUrl für Rest Api
 ## [model](src/app/model)
 Klassen, die für Transport und Abbildung benötigt werden
 
-## [services](src/app/services)
+## [service](src/app/service)
 Services, die bereitgestellt werden
 
-## [routes](src/app/outes)
+## [routes](src/app/routes)
 Routen und deren Komponenten, die für Navigation bzw. Anzeige verwendet werden
 
 ## [assets](src/assets)
