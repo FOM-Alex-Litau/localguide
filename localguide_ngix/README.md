@@ -6,6 +6,8 @@ Diese Konfiguration wurde für den Demobetrieb aufgebaut und ist natürlich ver�
 </br>
 Es muss nur bedacht werden, dass die jeweiligen Applikationsbestandteile die URL aktualisieren müssen
 
+Ngix stellt hierbei nur Routen bereit. Die jeweiligen anfragen Urls-Bestandteile werden rangehängt.
+
 ## Localguide - Ngix - Routen
 
 | Technologie               | Listen-Url    | Destination-Url |
