@@ -10,7 +10,7 @@ Es muss nur bedacht werden, dass die jeweiligen Applikationsbestandteile die URL
 
 | Technologie               | Listen-Url    | Destination-Url |
 | :---:                     | :---: |:---: |
-| **Plattform**    | http://localhost:7000/*   | http://localhost:7000/*  |
-| **Frontend (Angular)**    | \*/\*   | http://localguide.local:4200/ |
-| **IAM (Keycloak)**        | \*/realms/\* <br/> \*/resources/6q47a/\* |   | http://localhost:9009/realms , http://localhost:9009/resources/6q47a/
-| **Backend (FastAPI)**    | \*/localguide/api/*   | http://localguide.local:8000/ |
+| **Plattform**    | https://litau.myqnapcloud.com:7000/*   |ttps://litau.myqnapcloud.com:7000/*  |
+| **IAM (Keycloak)**        | ttps://litau.myqnapcloud.com:7000/realms/\* <br/> ttps://litau.myqnapcloud.com:7000/resources/6q47a/\* |  http://localhost:9009/realms  <br/> http://localhost:9009/resources/6q47a/ |
+| **Backend (FastAPI)**    | ttps://litau.myqnapcloud.com:7000/localguide/api/*   | http://localguide.local:8000/ |
+| **Frontend (Angular)**    | ttps://litau.myqnapcloud.com:7000/\*   | http://localguide.local:4200/* |
